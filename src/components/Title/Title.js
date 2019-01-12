@@ -6,7 +6,7 @@ const Title = props => (
     <div className="titlebox">
  
         <h1>Frenchie Memory Game</h1>
-        <p>Click on a frenchie to earn points, Game over if you click on the same frenchie more than once!</p>
+        <p>Click on a Frenchie to earn points. Game over if you click on the same frenchie more than once!</p>
     
     </div>
     
