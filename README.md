@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Memory Game</h1>
 
-## Available Scripts
+Live version: https://mjbenefiel.github.io/memory-game/
+<hr></hr>
 
-In the project directory, you can run:
+Author: Michael Benefiel
 
-### `npm start`
+Feel free to use some or all of this code if you're trying to complete a similar project.
+<hr></hr>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3> App screenshot </h3>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+![alt text](https://raw.githubusercontent.com/mjbenefiel/news-scraper/master/public/assets/img/news-image.jpg "News Scraper")
 
-### `npm test`
+<h2> Project overview</h2>
+This is a simple memory game created with React. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order. Once the user's score is reset after an incorrect guess, the game should restart.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr></hr>
 
-### `npm run build`
+<h2>Technology used</h2>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Node.js](https://nodejs.org/en/)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+[React](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<hr></hr>
 
-### `npm run eject`
+<h2>How it works</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- The application renders a 15 different French Bulldog images.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Pictures are shuffled each time a user clicks an image. The task for the user is to click on each image once and only once.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- The application keeps track of the user's score. Correct Guesses score is incremented each time the user clicks on an image for the first time in the current round.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Correct guesses score is reset to 0, if the user clicks on an image they're already clicked on in the current round.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- The application keeps track of the users Best Score, and updates it when the user achieves a new Best Score.
