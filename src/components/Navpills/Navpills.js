@@ -14,7 +14,7 @@ const Navpills = props => (
             >
                 {props.message}
             </li>
-            <li>Score: <span style={{color: "yellow"}}>{props.curScore}</span> | Top Score: {props.topScore}</li>
+            <li>Score: <span style={{color: "#36FF80"}}>{props.curScore}</span> | Top Score: {props.topScore}</li>
         </ul>
     </div>
 );

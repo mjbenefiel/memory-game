@@ -1,8 +1,9 @@
 .nav-pills {
     position: fixed;
+    font-family: 'Roboto', sans-serif;
     top: 0;
     left: 0;
-    background: rgb(104, 131, 115);
+    background: #2290FF;
     min-height: 65px;
     width: 100%;
     text-align: center;
@@ -21,7 +22,7 @@
 
 .nav-pills a:hover {
     color: #fff;
-    background-color: #5133a4 !important;
+    background-color: rgba(34, 66, 99, 0.109)!important;
 }
 
 .desc-normal {
