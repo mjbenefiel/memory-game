@@ -6,7 +6,8 @@ import Background from './frenchie.jpg'
       backgroundImage: `url(${Background})`,
       backgroundSize: 'cover',
       overflow: 'hidden',
-   
+      
+         
     };
 
 const Wrapper = props => <div style={background} className="wrapper">{props.children}</div>;
