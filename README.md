@@ -27,7 +27,7 @@ This is a simple memory game created with React. Every time an image is clicked,
 
 <h2>How it works</h2>
 
-- The application renders a 15 different French Bulldog images.
+- The application renders 15 different French Bulldog images.
 
 - Pictures are shuffled each time a user clicks an image. The task for the user is to click on each image once and only once.
 
