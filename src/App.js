@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import './style.css';
 import dogs from './dogs.json'
 import Wrapper from './components/Wrapper'
 import Navpills from './components/Navpills'
