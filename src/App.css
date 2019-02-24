@@ -33,7 +33,7 @@
   background:   linear-gradient(
       rgba(26, 25, 25, 0.294), 
       rgba(26, 25, 25, 0.801)
-    ), url("/img/frenchie.jpg") no-repeat center center fixed; 
+    ), url("./img/frenchie.jpg") no-repeat center center fixed; 
     
   height: 100%;
   display: flex;
