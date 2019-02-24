@@ -1,6 +1,14 @@
 import React from "react";
 import "./Wrapper.css";
+import Background from './frenchie.jpg'
 
-const Wrapper = props => <div className="wrapper">{props.children}</div>;
+ const background = {
+      backgroundImage: `url(${Background})`,
+      backgroundSize: 'cover',
+      overflow: 'hidden',
+   
+    };
+
+const Wrapper = props => <div style={background} className="wrapper">{props.children}</div>;
 
 export default Wrapper;

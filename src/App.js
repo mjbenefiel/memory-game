@@ -6,6 +6,7 @@ import Wrapper from './components/Wrapper'
 import Navpills from './components/Navpills'
 import Title from './components/Title'
 import DogCard from './components/DogCard'
+// import Background from './img/frenchie.jpg'
 
 class App extends Component {
     state = {
@@ -18,6 +19,8 @@ class App extends Component {
 
     componentDidMount() {
     }
+
+ 
 
     shuffleArray = array => {
         for (let i = array.length - 1; i > 0; i--) {
@@ -55,14 +58,17 @@ class App extends Component {
     };
 
     render() {
+   
         return (
-            <Wrapper>
+            <Wrapper >
+           
                 <Navpills
                     message={this.state.message}
                     curScore={this.state.curScore}
                     topScore={this.state.topScore}
                 />
                 <Title />
+                
                 {
                     this.state.dogs.map(dog => (
                         <DogCard
@@ -73,7 +79,8 @@ class App extends Component {
                         />
                     ))
                 }
-            </Wrapper>
+            </Wrapper >
+            
         );
     }
 }
